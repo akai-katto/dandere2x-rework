@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+

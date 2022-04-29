@@ -1,0 +1,69 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ncnn/glslang/OGLCompilersDLL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ncnn/glslang/OGLCompilersDLL/libOGLCompiler.a"
+			],
+			"targetId" : "OGLCompiler::@ecaaa460abdc95f44e0f",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"exportName" : "OGLCompilerTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OGLCompiler::@ecaaa460abdc95f44e0f",
+					"index" : 2
+				}
+			],
+			"paths" : 
+			[
+				"ncnn/glslang/OGLCompilersDLL/CMakeFiles/Export/lib/cmake/OGLCompilerTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ncnn/glslang/OGLCompilersDLL",
+		"source" : "ncnn/glslang/OGLCompilersDLL"
+	}
+}

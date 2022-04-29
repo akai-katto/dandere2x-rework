@@ -1,0 +1,1287 @@
+{
+	"archive" : 
+	{
+		"lto" : true
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "ncnn/src/libncnn.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_dependencies",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"ncnn/src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 272,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 374,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 295,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 303,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 306,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 321,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 325,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 333,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fopenmp -O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIC"
+				},
+				{
+					"fragment" : "-DNCNN_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-msse2"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-msse"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/tyler/CLionProjects/test_clion/cmake-build-debug"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src/layer/x86"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tyler/CLionProjects/test_clion/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				29,
+				30,
+				31,
+				34,
+				35,
+				36,
+				37,
+				38,
+				41,
+				42,
+				43,
+				46,
+				47,
+				48,
+				51,
+				52,
+				53,
+				54,
+				57,
+				58,
+				59,
+				62,
+				63,
+				64,
+				67,
+				68,
+				69,
+				70,
+				73,
+				74,
+				75,
+				76,
+				77,
+				80,
+				81,
+				82
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fopenmp -O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIC"
+				},
+				{
+					"fragment" : "-DNCNN_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-msse2"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-msse"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				},
+				{
+					"fragment" : "-mfma -mf16c -mavx2"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/tyler/CLionProjects/test_clion/cmake-build-debug"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src/layer/x86"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src/layer"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/src/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tyler/CLionProjects/test_clion/cmake-build-debug/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				28,
+				33,
+				40,
+				45,
+				50,
+				56,
+				61,
+				66,
+				72,
+				79,
+				84
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "GenericCodeGen::@2aa08aa9697e599c9138"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MachineIndependent::@2aa08aa9697e599c9138"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glslang::@2aa08aa9697e599c9138"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "OSDependent::@d2ae1901045c2048cf23"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "OGLCompiler::@ecaaa460abdc95f44e0f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SPIRV::@2f46f53af8822572bcb1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ncnn-generate-spirv::@156d1a2703f133959025"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "libncnn"
+	},
+	"id" : "ncnn::@156d1a2703f133959025",
+	"name" : "ncnn",
+	"nameOnDisk" : "libncnn.a",
+	"paths" : 
+	{
+		"build" : "ncnn/src",
+		"source" : "ncnn/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "sources",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"name" : "sources\\layers",
+			"sourceIndexes" : 
+			[
+				24,
+				29,
+				34,
+				36,
+				41,
+				46,
+				51,
+				52,
+				57,
+				62,
+				67,
+				68,
+				73,
+				75,
+				80
+			]
+		},
+		{
+			"name" : "sources\\layers\\x86",
+			"sourceIndexes" : 
+			[
+				25,
+				30,
+				37,
+				42,
+				47,
+				53,
+				58,
+				63,
+				69,
+				76,
+				81
+			]
+		},
+		{
+			"name" : "sources\\layers\\vulkan",
+			"sourceIndexes" : 
+			[
+				26,
+				31,
+				35,
+				38,
+				43,
+				48,
+				54,
+				59,
+				64,
+				70,
+				74,
+				77,
+				82
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				27,
+				32,
+				39,
+				44,
+				49,
+				55,
+				60,
+				65,
+				71,
+				78,
+				83
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				28,
+				33,
+				40,
+				45,
+				50,
+				56,
+				61,
+				66,
+				72,
+				79,
+				84
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/allocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/blob.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/c_api.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/command.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/cpu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/datareader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/gpu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_affine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_drawing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_resize.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/mat_pixel_rotate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/modelbin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/net.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/option.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/paramdict.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/pipeline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/pipelinecache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/simpleocv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/simpleomp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/simplestl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/convolution.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/convolution_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/convolution_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/convolution_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/convolution_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/crop.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/crop_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/crop_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/crop_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/crop_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/deconvolution.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/deconvolution_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/eltwise.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/eltwise_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/eltwise_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/eltwise_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/eltwise_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/flatten.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/flatten_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/flatten_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/flatten_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/flatten_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/innerproduct.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/innerproduct_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/innerproduct_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/innerproduct_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/innerproduct_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/input.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/pooling.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/pooling_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/pooling_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/pooling_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/pooling_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/relu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/relu_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/relu_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/relu_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/relu_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/scale.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/scale_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/scale_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/scale_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/scale_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/split.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/padding.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/padding_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/padding_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/padding_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/padding_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/interp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/interp_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/packing.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/packing_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/packing_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/packing_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/packing_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/cast.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/x86/cast_x86.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ncnn/src/layer/vulkan/cast_vulkan.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/cast_x86_avx2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/cast_x86_avx2.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/convolution_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/convolution_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/crop_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/crop_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/eltwise_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/eltwise_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/flatten_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/flatten_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/innerproduct_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/innerproduct_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/pooling_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/pooling_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/relu_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/relu_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/scale_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/scale_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/padding_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/padding_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/packing_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/packing_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/cast_x86_avx2.h.rule",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/ncnn/src/layer/x86/cast_x86_avx2.cpp.rule",
+			"sourceGroupIndex" : 6
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

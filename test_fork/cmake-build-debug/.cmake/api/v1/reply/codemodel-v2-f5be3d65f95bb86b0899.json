@@ -1,0 +1,403 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"build" : "ncnn",
+					"childIndexes" : 
+					[
+						2,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn-Release-876b85e4038c3d629d59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ncnn"
+				},
+				{
+					"build" : "ncnn/glslang",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn.glslang-Release-80f8ba591561df3cfc4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "ncnn/glslang"
+				},
+				{
+					"build" : "ncnn/glslang/glslang",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn.glslang.glslang-Release-79279dfd4a33747a67dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ncnn/glslang/glslang",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						6
+					]
+				},
+				{
+					"build" : "ncnn/glslang/glslang/OSDependent/Unix",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn.glslang.glslang.OSDependent.Unix-Release-ac2d4485b1105d90d23d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "ncnn/glslang/glslang/OSDependent/Unix",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ncnn/glslang/OGLCompilersDLL",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn.glslang.OGLCompilersDLL-Release-e5c8a0310e5acbdd5910.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ncnn/glslang/OGLCompilersDLL",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ncnn/glslang/SPIRV",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ncnn.glslang.SPIRV-Release-8a6f9eb4be19b2585eec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "ncnn/glslang/SPIRV",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "ncnn/src",
+					"jsonFile" : "directory-ncnn.src-Release-976c79a879c3e4f81b30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ncnn/src",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "libwebp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libwebp-Release-f5722bf9a71c1d9d1c6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "libwebp",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "waifu2x-ncnn-vulkan",
+					"targetIndexes" : 
+					[
+						5,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						7
+					],
+					"name" : "ncnn",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "glslang",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "WebP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "GenericCodeGen::@2aa08aa9697e599c9138",
+					"jsonFile" : "target-GenericCodeGen-Release-e4ed67a3fc19e7468840.json",
+					"name" : "GenericCodeGen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MachineIndependent::@2aa08aa9697e599c9138",
+					"jsonFile" : "target-MachineIndependent-Release-323f9f589fbac39bd1b5.json",
+					"name" : "MachineIndependent",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "OGLCompiler::@ecaaa460abdc95f44e0f",
+					"jsonFile" : "target-OGLCompiler-Release-b476ce4a6c8f33040b86.json",
+					"name" : "OGLCompiler",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "OSDependent::@d2ae1901045c2048cf23",
+					"jsonFile" : "target-OSDependent-Release-b9353cf1d00af877834b.json",
+					"name" : "OSDependent",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SPIRV::@2f46f53af8822572bcb1",
+					"jsonFile" : "target-SPIRV-Release-4de674a89c85af633296.json",
+					"name" : "SPIRV",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate-spirv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate-spirv-Release-ff3218c6c562bd9daa81.json",
+					"name" : "generate-spirv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glslang::@2aa08aa9697e599c9138",
+					"jsonFile" : "target-glslang-Release-07ef666bcab999c8ac16.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ncnn::@156d1a2703f133959025",
+					"jsonFile" : "target-ncnn-Release-1545d65a894ee8a00eaf.json",
+					"name" : "ncnn",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ncnn-generate-spirv::@156d1a2703f133959025",
+					"jsonFile" : "target-ncnn-generate-spirv-Release-d3d57bd7d50b94c91f5a.json",
+					"name" : "ncnn-generate-spirv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waifu2x-ncnn-vulkan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waifu2x-ncnn-vulkan-Release-4383e6ceaeb9e25dc6cc.json",
+					"name" : "waifu2x-ncnn-vulkan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webp-Release-41d63bb3a044e8fea3cf.json",
+					"name" : "webp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webpdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdecode-Release-12a5d6da9e23c4cd85d3.json",
+					"name" : "webpdecode",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webpdecoder::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdecoder-Release-a20650571c41b1f99a93.json",
+					"name" : "webpdecoder",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webpdemux::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdemux-Release-3ce4c275aae2501d5fcd.json",
+					"name" : "webpdemux",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webpdsp::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdsp-Release-b917a423d3d8b68e13cc.json",
+					"name" : "webpdsp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webpdspdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpdspdecode-Release-df8ebdd2fa515859d455.json",
+					"name" : "webpdspdecode",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webpencode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webpencode-Release-5ce70a0bb36f5012b672.json",
+					"name" : "webpencode",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webputils::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webputils-Release-9624da9969dcb1bab245.json",
+					"name" : "webputils",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "webputilsdecode::@91ecdd311bb4d766aad5",
+					"jsonFile" : "target-webputilsdecode-Release-6073d0e1f2c2c4655926.json",
+					"name" : "webputilsdecode",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tyler/CLionProjects/test_clion/cmake-build-debug",
+		"source" : "/home/tyler/CLionProjects/test_clion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

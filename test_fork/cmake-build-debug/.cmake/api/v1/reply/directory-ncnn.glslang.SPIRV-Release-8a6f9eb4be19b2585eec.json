@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ncnn/glslang/SPIRV/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ncnn/glslang/SPIRV/libSPIRV.a"
+			],
+			"targetId" : "SPIRV::@2f46f53af8822572bcb1",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"exportName" : "SPIRVTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SPIRV::@2f46f53af8822572bcb1",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"ncnn/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/SPIRV",
+			"paths" : 
+			[
+				"ncnn/glslang/SPIRV/bitutils.h",
+				"ncnn/glslang/SPIRV/spirv.hpp",
+				"ncnn/glslang/SPIRV/GLSL.std.450.h",
+				"ncnn/glslang/SPIRV/GLSL.ext.EXT.h",
+				"ncnn/glslang/SPIRV/GLSL.ext.KHR.h",
+				"ncnn/glslang/SPIRV/GlslangToSpv.h",
+				"ncnn/glslang/SPIRV/hex_float.h",
+				"ncnn/glslang/SPIRV/Logger.h",
+				"ncnn/glslang/SPIRV/SpvBuilder.h",
+				"ncnn/glslang/SPIRV/spvIR.h",
+				"ncnn/glslang/SPIRV/doc.h",
+				"ncnn/glslang/SPIRV/SpvTools.h",
+				"ncnn/glslang/SPIRV/disassemble.h",
+				"ncnn/glslang/SPIRV/GLSL.ext.AMD.h",
+				"ncnn/glslang/SPIRV/GLSL.ext.NV.h",
+				"ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h",
+				"ncnn/glslang/SPIRV/SPVRemapper.h",
+				"ncnn/glslang/SPIRV/doc.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ncnn/glslang/SPIRV",
+		"source" : "ncnn/glslang/SPIRV"
+	}
+}

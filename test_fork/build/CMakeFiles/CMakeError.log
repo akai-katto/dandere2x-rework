@@ -1,0 +1,469 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1ccc/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1ccc.dir/build.make CMakeFiles/cmTC_b1ccc.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1ccc.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b1ccc.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b1ccc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ccc.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b1ccc.dir/src.c.o -o cmTC_b1ccc 
+/usr/bin/ld: CMakeFiles/cmTC_b1ccc.dir/src.c.o: in function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x67): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b1ccc.dir/build.make:99: cmTC_b1ccc] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_b1ccc/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_285c3/fast && /usr/bin/make  -f CMakeFiles/cmTC_285c3.dir/build.make CMakeFiles/cmTC_285c3.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_285c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_285c3.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_285c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_285c3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_285c3.dir/CheckFunctionExists.c.o -o cmTC_285c3  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_285c3.dir/build.make:99: cmTC_285c3] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_285c3/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_MATH_LIBRARY failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_454d5/fast && /usr/bin/make  -f CMakeFiles/cmTC_454d5.dir/build.make CMakeFiles/cmTC_454d5.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_454d5.dir/src.c.o
+/usr/bin/cc -DHAVE_MATH_LIBRARY  -fopenmp -pthread  -o CMakeFiles/cmTC_454d5.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_454d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_454d5.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -pthread  CMakeFiles/cmTC_454d5.dir/src.c.o -o cmTC_454d5 
+/usr/bin/ld: CMakeFiles/cmTC_454d5.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_454d5.dir/build.make:99: cmTC_454d5] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_454d5/fast] Error 2
+
+
+Source file was:
+
+    #include <math.h>
+    int main(int argc, char** argv) {
+      return (int)pow(argc, 2.5);
+    }
+  
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d717a/fast && /usr/bin/make  -f CMakeFiles/cmTC_d717a.dir/build.make CMakeFiles/cmTC_d717a.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d717a.dir/HAVE_GLUT_GLUT_H.c.o
+/usr/bin/cc   -fopenmp -pthread  -o CMakeFiles/cmTC_d717a.dir/HAVE_GLUT_GLUT_H.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c:2:10: fatal error: GLUT/glut.h: No such file or directory
+    2 | #include <GLUT/glut.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d717a.dir/build.make:78: CMakeFiles/cmTC_d717a.dir/HAVE_GLUT_GLUT_H.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_d717a/fast] Error 2
+
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d8ec/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d8ec.dir/build.make CMakeFiles/cmTC_6d8ec.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d8ec.dir/HAVE_OPENGL_GLUT_H.c.o
+/usr/bin/cc   -fopenmp -pthread  -o CMakeFiles/cmTC_6d8ec.dir/HAVE_OPENGL_GLUT_H.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c:2:10: fatal error: OpenGL/glut.h: No such file or directory
+    2 | #include <OpenGL/glut.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_6d8ec.dir/build.make:78: CMakeFiles/cmTC_6d8ec.dir/HAVE_OPENGL_GLUT_H.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_6d8ec/fast] Error 2
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files shlwapi.h exist failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24240/fast && /usr/bin/make  -f CMakeFiles/cmTC_24240.dir/build.make CMakeFiles/cmTC_24240.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24240.dir/HAVE_SHLWAPI_H.c.o
+/usr/bin/cc   -fopenmp -pthread  -o CMakeFiles/cmTC_24240.dir/HAVE_SHLWAPI_H.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_SHLWAPI_H.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_SHLWAPI_H.c:2:10: fatal error: shlwapi.h: No such file or directory
+    2 | #include <shlwapi.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_24240.dir/build.make:78: CMakeFiles/cmTC_24240.dir/HAVE_SHLWAPI_H.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_24240/fast] Error 2
+
+
+Source:
+/* */
+#include <shlwapi.h>
+
+
+int main(void){return 0;}
+
+Determining if files wincodec.h exist failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7ff07/fast && /usr/bin/make  -f CMakeFiles/cmTC_7ff07.dir/build.make CMakeFiles/cmTC_7ff07.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ff07.dir/HAVE_WINCODEC_H.c.o
+/usr/bin/cc   -fopenmp -pthread  -o CMakeFiles/cmTC_7ff07.dir/HAVE_WINCODEC_H.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_WINCODEC_H.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_WINCODEC_H.c:2:10: fatal error: wincodec.h: No such file or directory
+    2 | #include <wincodec.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7ff07.dir/build.make:78: CMakeFiles/cmTC_7ff07.dir/HAVE_WINCODEC_H.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_7ff07/fast] Error 2
+
+
+Source:
+/* */
+#include <wincodec.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_18e2a/fast && /usr/bin/make  -f CMakeFiles/cmTC_18e2a.dir/build.make CMakeFiles/cmTC_18e2a.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18e2a.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/cc   -fopenmp -pthread  -o CMakeFiles/cmTC_18e2a.dir/HAVE_WINDOWS_H.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_18e2a.dir/build.make:78: CMakeFiles/cmTC_18e2a.dir/HAVE_WINDOWS_H.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_18e2a/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_98680/fast && /usr/bin/make  -f CMakeFiles/cmTC_98680.dir/build.make CMakeFiles/cmTC_98680.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98680.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_SSE41 -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread  -o CMakeFiles/cmTC_98680.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+make[1]: *** [CMakeFiles/cmTC_98680.dir/build.make:78: CMakeFiles/cmTC_98680.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_98680/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e0290/fast && /usr/bin/make  -f CMakeFiles/cmTC_e0290.dir/build.make CMakeFiles/cmTC_e0290.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0290.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS32 -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread  -o CMakeFiles/cmTC_e0290.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+make[1]: *** [CMakeFiles/cmTC_e0290.dir/build.make:78: CMakeFiles/cmTC_e0290.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_e0290/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f694a/fast && /usr/bin/make  -f CMakeFiles/cmTC_f694a.dir/build.make CMakeFiles/cmTC_f694a.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f694a.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS32 -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread -mips32 -o CMakeFiles/cmTC_f694a.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mips32’; did you mean ‘-mpc32’?
+make[1]: *** [CMakeFiles/cmTC_f694a.dir/build.make:78: CMakeFiles/cmTC_f694a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_f694a/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f1f4/fast && /usr/bin/make  -f CMakeFiles/cmTC_0f1f4.dir/build.make CMakeFiles/cmTC_0f1f4.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f1f4.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread  -o CMakeFiles/cmTC_0f1f4.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+make[1]: *** [CMakeFiles/cmTC_0f1f4.dir/build.make:78: CMakeFiles/cmTC_0f1f4.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_0f1f4/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1cc2f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1cc2f.dir/build.make CMakeFiles/cmTC_1cc2f.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cc2f.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread -mdspr2 -o CMakeFiles/cmTC_1cc2f.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mdspr2’
+make[1]: *** [CMakeFiles/cmTC_1cc2f.dir/build.make:78: CMakeFiles/cmTC_1cc2f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_1cc2f/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b7729/fast && /usr/bin/make  -f CMakeFiles/cmTC_b7729.dir/build.make CMakeFiles/cmTC_b7729.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7729.dir/src.c.o
+/usr/bin/cc -DHAS_COMPILE_FLAG  -fopenmp -pthread -mdspr2   -mno-dspr2 -o CMakeFiles/cmTC_b7729.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-mdspr2'
+cc: error: unrecognized command-line option '-mno-dspr2'; did you mean '-mno-sse2'?
+make[1]: *** [CMakeFiles/cmTC_b7729.dir/build.make:78: CMakeFiles/cmTC_b7729.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_b7729/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_acb11/fast && /usr/bin/make  -f CMakeFiles/cmTC_acb11.dir/build.make CMakeFiles/cmTC_acb11.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acb11.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_NEON -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread  -o CMakeFiles/cmTC_acb11.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+make[1]: *** [CMakeFiles/cmTC_acb11.dir/build.make:78: CMakeFiles/cmTC_acb11.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_acb11/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c9caa/fast && /usr/bin/make  -f CMakeFiles/cmTC_c9caa.dir/build.make CMakeFiles/cmTC_c9caa.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9caa.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_NEON -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread -mfpu=neon -o CMakeFiles/cmTC_c9caa.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mfpu=neon’
+make[1]: *** [CMakeFiles/cmTC_c9caa.dir/build.make:78: CMakeFiles/cmTC_c9caa.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_c9caa/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8b639/fast && /usr/bin/make  -f CMakeFiles/cmTC_8b639.dir/build.make CMakeFiles/cmTC_8b639.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b639.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_MSA -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread  -o CMakeFiles/cmTC_8b639.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+make[1]: *** [CMakeFiles/cmTC_8b639.dir/build.make:78: CMakeFiles/cmTC_8b639.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_8b639/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_81c9e/fast && /usr/bin/make  -f CMakeFiles/cmTC_81c9e.dir/build.make CMakeFiles/cmTC_81c9e.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81c9e.dir/src.c.o
+/usr/bin/cc -DWEBP_HAVE_FLAG_MSA -I/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp -fopenmp -pthread -mmsa -o CMakeFiles/cmTC_81c9e.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mmsa’
+make[1]: *** [CMakeFiles/cmTC_81c9e.dir/build.make:78: CMakeFiles/cmTC_81c9e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_81c9e/fast] Error 2
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_61cbd/fast && /usr/bin/make  -f CMakeFiles/cmTC_61cbd.dir/build.make CMakeFiles/cmTC_61cbd.dir/build
+make[1]: Entering directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61cbd.dir/src.c.o
+/usr/bin/cc -DHAS_COMPILE_FLAG  -fopenmp -pthread -mmsa   -mno-msa -o CMakeFiles/cmTC_61cbd.dir/src.c.o -c /home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-mmsa'
+cc: error: unrecognized command-line option '-mno-msa'; did you mean '-Wno-hsa'?
+make[1]: *** [CMakeFiles/cmTC_61cbd.dir/build.make:78: CMakeFiles/cmTC_61cbd.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_61cbd/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }

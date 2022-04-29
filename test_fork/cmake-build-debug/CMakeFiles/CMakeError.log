@@ -1,0 +1,406 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_72fc4 && [1/2] Building C object CMakeFiles/cmTC_72fc4.dir/src.c.o
+[2/2] Linking C executable cmTC_72fc4
+FAILED: cmTC_72fc4 
+: && /usr/bin/cc   CMakeFiles/cmTC_72fc4.dir/src.c.o -o cmTC_72fc4   && :
+/usr/bin/ld: CMakeFiles/cmTC_72fc4.dir/src.c.o: in function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x67): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_8bd63 && [1/2] Building C object CMakeFiles/cmTC_8bd63.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8bd63
+FAILED: cmTC_8bd63 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_8bd63.dir/CheckFunctionExists.c.o -o cmTC_8bd63  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_MATH_LIBRARY failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_fdffe && [1/2] Building C object CMakeFiles/cmTC_fdffe.dir/src.c.o
+[2/2] Linking C executable cmTC_fdffe
+FAILED: cmTC_fdffe 
+: && /usr/bin/cc -fopenmp -pthread  CMakeFiles/cmTC_fdffe.dir/src.c.o -o cmTC_fdffe   && :
+/usr/bin/ld: CMakeFiles/cmTC_fdffe.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+    #include <math.h>
+    int main(int argc, char** argv) {
+      return (int)pow(argc, 2.5);
+    }
+  
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_1c5d1 && [1/2] Building C object CMakeFiles/cmTC_1c5d1.dir/HAVE_GLUT_GLUT_H.c.o
+FAILED: CMakeFiles/cmTC_1c5d1.dir/HAVE_GLUT_GLUT_H.c.o 
+/usr/bin/cc   -fopenmp -pthread -o CMakeFiles/cmTC_1c5d1.dir/HAVE_GLUT_GLUT_H.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c:2:10: fatal error: GLUT/glut.h: No such file or directory
+    2 | #include <GLUT/glut.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_56741 && [1/2] Building C object CMakeFiles/cmTC_56741.dir/HAVE_OPENGL_GLUT_H.c.o
+FAILED: CMakeFiles/cmTC_56741.dir/HAVE_OPENGL_GLUT_H.c.o 
+/usr/bin/cc   -fopenmp -pthread -o CMakeFiles/cmTC_56741.dir/HAVE_OPENGL_GLUT_H.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c:2:10: fatal error: OpenGL/glut.h: No such file or directory
+    2 | #include <OpenGL/glut.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files shlwapi.h exist failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_ba05f && [1/2] Building C object CMakeFiles/cmTC_ba05f.dir/HAVE_SHLWAPI_H.c.o
+FAILED: CMakeFiles/cmTC_ba05f.dir/HAVE_SHLWAPI_H.c.o 
+/usr/bin/cc   -fopenmp -pthread -o CMakeFiles/cmTC_ba05f.dir/HAVE_SHLWAPI_H.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SHLWAPI_H.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SHLWAPI_H.c:2:10: fatal error: shlwapi.h: No such file or directory
+    2 | #include <shlwapi.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <shlwapi.h>
+
+
+int main(void){return 0;}
+
+Determining if files wincodec.h exist failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_3f8b9 && [1/2] Building C object CMakeFiles/cmTC_3f8b9.dir/HAVE_WINCODEC_H.c.o
+FAILED: CMakeFiles/cmTC_3f8b9.dir/HAVE_WINCODEC_H.c.o 
+/usr/bin/cc   -fopenmp -pthread -o CMakeFiles/cmTC_3f8b9.dir/HAVE_WINCODEC_H.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINCODEC_H.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINCODEC_H.c:2:10: fatal error: wincodec.h: No such file or directory
+    2 | #include <wincodec.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <wincodec.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_80598 && [1/2] Building C object CMakeFiles/cmTC_80598.dir/HAVE_WINDOWS_H.c.o
+FAILED: CMakeFiles/cmTC_80598.dir/HAVE_WINDOWS_H.c.o 
+/usr/bin/cc   -fopenmp -pthread -o CMakeFiles/cmTC_80598.dir/HAVE_WINDOWS_H.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_512fa && [1/2] Building C object CMakeFiles/cmTC_512fa.dir/src.c.o
+FAILED: CMakeFiles/cmTC_512fa.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_SSE41 -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -o CMakeFiles/cmTC_512fa.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_3e333 && [1/2] Building C object CMakeFiles/cmTC_3e333.dir/src.c.o
+FAILED: CMakeFiles/cmTC_3e333.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS32 -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -o CMakeFiles/cmTC_3e333.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_f9a0a && [1/2] Building C object CMakeFiles/cmTC_f9a0a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_f9a0a.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS32 -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -mips32 -o CMakeFiles/cmTC_f9a0a.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mips32’; did you mean ‘-mpc32’?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_5689a && [1/2] Building C object CMakeFiles/cmTC_5689a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_5689a.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -o CMakeFiles/cmTC_5689a.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_2d82c && [1/2] Building C object CMakeFiles/cmTC_2d82c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2d82c.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -mdspr2 -o CMakeFiles/cmTC_2d82c.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mdspr2’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_ab630 && [1/2] Building C object CMakeFiles/cmTC_ab630.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ab630.dir/src.c.o 
+/usr/bin/cc -DHAS_COMPILE_FLAG  -fopenmp -pthread -mdspr2   -mno-dspr2 -o CMakeFiles/cmTC_ab630.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-mdspr2'
+cc: error: unrecognized command-line option '-mno-dspr2'; did you mean '-mno-sse2'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_54c7e && [1/2] Building C object CMakeFiles/cmTC_54c7e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_54c7e.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_NEON -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -o CMakeFiles/cmTC_54c7e.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_b1b5a && [1/2] Building C object CMakeFiles/cmTC_b1b5a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b1b5a.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_NEON -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -mfpu=neon -o CMakeFiles/cmTC_b1b5a.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mfpu=neon’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_cb1e2 && [1/2] Building C object CMakeFiles/cmTC_cb1e2.dir/src.c.o
+FAILED: CMakeFiles/cmTC_cb1e2.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MSA -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -o CMakeFiles/cmTC_cb1e2.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:9: error: unknown type name ‘this’
+    5 |         this is not valid code
+      |         ^~~~
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘not’
+    5 |         this is not valid code
+      |                 ^~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_c0114 && [1/2] Building C object CMakeFiles/cmTC_c0114.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c0114.dir/src.c.o 
+/usr/bin/cc -DWEBP_HAVE_FLAG_MSA -I/home/tyler/CLionProjects/test_clion/libwebp -fopenmp -pthread -mmsa -o CMakeFiles/cmTC_c0114.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mmsa’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_10e9f && [1/2] Building C object CMakeFiles/cmTC_10e9f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_10e9f.dir/src.c.o 
+/usr/bin/cc -DHAS_COMPILE_FLAG  -fopenmp -pthread -mmsa   -mno-msa -o CMakeFiles/cmTC_10e9f.dir/src.c.o -c /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-mmsa'
+cc: error: unrecognized command-line option '-mno-msa'; did you mean '-Wno-hsa'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }

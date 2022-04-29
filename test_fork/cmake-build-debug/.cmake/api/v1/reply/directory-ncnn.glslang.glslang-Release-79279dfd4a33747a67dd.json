@@ -1,0 +1,629 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ncnn/glslang/glslang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 224,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/libglslang.a"
+			],
+			"targetId" : "glslang::@2aa08aa9697e599c9138",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/libMachineIndependent.a"
+			],
+			"targetId" : "MachineIndependent::@2aa08aa9697e599c9138",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/libGenericCodeGen.a"
+			],
+			"targetId" : "GenericCodeGen::@2aa08aa9697e599c9138",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"exportName" : "glslangTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "glslang::@2aa08aa9697e599c9138",
+					"index" : 6
+				},
+				{
+					"id" : "MachineIndependent::@2aa08aa9697e599c9138",
+					"index" : 1
+				},
+				{
+					"id" : "GenericCodeGen::@2aa08aa9697e599c9138",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/CMakeFiles/Export/lib/cmake/glslangTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Public",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Public/ShaderLang.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/arrays.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/BaseTypes.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/Common.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/ConstantUnion.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/glslang_c_interface.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/glslang_c_shader_types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/InfoSink.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/InitializeGlobals.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/intermediate.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/PoolAlloc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/ResourceLimits.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/ShHandle.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/Include",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/Include/Types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/attribute.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/gl_types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/Initialize.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/iomapper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/localintermediate.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/ParseHelper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/reflection.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/RemoveTree.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/Scan.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/ScanContext.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/SymbolTable.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/Versions.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/parseVersions.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent/preprocessor",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/MachineIndependent/preprocessor",
+			"paths" : 
+			[
+				"ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "include/glslang",
+			"paths" : 
+			[
+				"cmake-build-debug/include/glslang/build_info.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ncnn/glslang/glslang",
+		"source" : "ncnn/glslang/glslang"
+	}
+}

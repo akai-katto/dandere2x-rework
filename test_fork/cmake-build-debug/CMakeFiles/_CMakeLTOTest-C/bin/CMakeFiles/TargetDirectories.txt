@@ -1,0 +1,4 @@
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir

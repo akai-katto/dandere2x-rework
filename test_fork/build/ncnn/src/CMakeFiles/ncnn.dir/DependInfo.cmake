@@ -1,0 +1,98 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/allocator.cpp" "ncnn/src/CMakeFiles/ncnn.dir/allocator.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/allocator.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/benchmark.cpp" "ncnn/src/CMakeFiles/ncnn.dir/benchmark.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/benchmark.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/blob.cpp" "ncnn/src/CMakeFiles/ncnn.dir/blob.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/blob.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/c_api.cpp" "ncnn/src/CMakeFiles/ncnn.dir/c_api.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/c_api.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/command.cpp" "ncnn/src/CMakeFiles/ncnn.dir/command.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/command.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/cpu.cpp" "ncnn/src/CMakeFiles/ncnn.dir/cpu.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/cpu.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/datareader.cpp" "ncnn/src/CMakeFiles/ncnn.dir/datareader.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/datareader.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/gpu.cpp" "ncnn/src/CMakeFiles/ncnn.dir/gpu.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/gpu.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/cast.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/convolution.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/crop.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/deconvolution.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/eltwise.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/flatten.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/innerproduct.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/input.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/input.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/input.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/interp.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/packing.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/padding.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/pooling.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/relu.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/scale.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/split.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/split.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/split.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/cast_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/convolution_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/crop_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/eltwise_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/flatten_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/interp_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/packing_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/padding_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/pooling_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/relu_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/vulkan/scale_vulkan.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/cast_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/cast_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/cast_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/convolution_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/convolution_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/crop_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/crop_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/crop_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/eltwise_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/eltwise_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/eltwise_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/flatten_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/flatten_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/flatten_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/innerproduct_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/innerproduct_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/innerproduct_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/packing_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/packing_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/packing_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/padding_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/padding_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/padding_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/pooling_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/pooling_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/pooling_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/relu_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/relu_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/relu_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/layer/x86/scale_x86.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/src/layer/x86/scale_x86_avx2.cpp" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx2.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/layer/x86/scale_x86_avx2.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/mat.cpp" "ncnn/src/CMakeFiles/ncnn.dir/mat.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/mat.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/mat_pixel.cpp" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/mat_pixel_affine.cpp" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_affine.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/mat_pixel_drawing.cpp" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_drawing.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/mat_pixel_resize.cpp" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/mat_pixel_rotate.cpp" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/mat_pixel_rotate.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/modelbin.cpp" "ncnn/src/CMakeFiles/ncnn.dir/modelbin.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/modelbin.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/net.cpp" "ncnn/src/CMakeFiles/ncnn.dir/net.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/net.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/option.cpp" "ncnn/src/CMakeFiles/ncnn.dir/option.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/option.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/paramdict.cpp" "ncnn/src/CMakeFiles/ncnn.dir/paramdict.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/paramdict.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/pipeline.cpp" "ncnn/src/CMakeFiles/ncnn.dir/pipeline.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/pipeline.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/pipelinecache.cpp" "ncnn/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/pipelinecache.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/simpleocv.cpp" "ncnn/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/simpleocv.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/simpleomp.cpp" "ncnn/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/simpleomp.cpp.o.d"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/ncnn/src/simplestl.cpp" "ncnn/src/CMakeFiles/ncnn.dir/simplestl.cpp.o" "gcc" "ncnn/src/CMakeFiles/ncnn.dir/simplestl.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/glslang/glslang/CMakeFiles/glslang.dir/DependInfo.cmake"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/glslang/SPIRV/CMakeFiles/SPIRV.dir/DependInfo.cmake"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/glslang/glslang/CMakeFiles/MachineIndependent.dir/DependInfo.cmake"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/DependInfo.cmake"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/OSDependent.dir/DependInfo.cmake"
+  "/home/tyler/Documents/github/waifu2x-ncnn-vulkan/src/build/ncnn/glslang/glslang/CMakeFiles/GenericCodeGen.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
