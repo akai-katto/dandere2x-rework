@@ -1,4 +1,4 @@
-# Install script for directory: /home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang
+# Install script for directory: /home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,22 +43,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/libglslang.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/libglslang.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/libMachineIndependent.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/libMachineIndependent.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/libGenericCodeGen.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/libGenericCodeGen.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glslangTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glslangTargets.cmake"
-         "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/CMakeFiles/Export/lib/cmake/glslangTargets.cmake")
+         "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/CMakeFiles/Export/lib/cmake/glslangTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glslangTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -67,147 +67,147 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/CMakeFiles/Export/lib/cmake/glslangTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/CMakeFiles/Export/lib/cmake/glslangTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/CMakeFiles/Export/lib/cmake/glslangTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/CMakeFiles/Export/lib/cmake/glslangTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Public" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Public/ShaderLang.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Public" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Public/ShaderLang.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/arrays.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/arrays.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/BaseTypes.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/BaseTypes.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/Common.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/Common.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/ConstantUnion.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/ConstantUnion.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/glslang_c_interface.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/glslang_c_interface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/glslang_c_shader_types.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/glslang_c_shader_types.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/InfoSink.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/InfoSink.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/InitializeGlobals.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/InitializeGlobals.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/intermediate.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/intermediate.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/PoolAlloc.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/PoolAlloc.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/ResourceLimits.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/ResourceLimits.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/ShHandle.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/ShHandle.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/Include/Types.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/Include" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/Include/Types.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/attribute.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/attribute.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/glslang_tab.cpp.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/gl_types.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/gl_types.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/Initialize.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/Initialize.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/iomapper.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/iomapper.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/LiveTraverser.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/localintermediate.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/localintermediate.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/ParseHelper.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/reflection.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/reflection.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/RemoveTree.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/Scan.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/Scan.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/ScanContext.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/ScanContext.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/SymbolTable.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/Versions.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/Versions.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/parseVersions.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/parseVersions.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/propagateNoContraction.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent/preprocessor" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent/preprocessor" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpContext.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent/preprocessor" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/MachineIndependent/preprocessor" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/MachineIndependent/preprocessor/PpTokens.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/include/glslang/build_info.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/include/glslang/build_info.h")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/cmake_install.cmake")
+  include("/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/cmake_install.cmake")
 
 endif()
 

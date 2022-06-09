@@ -1,4 +1,4 @@
-# Install script for directory: /home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV
+# Install script for directory: /home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/SPIRV/libSPIRV.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/SPIRV/libSPIRV.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SPIRVTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SPIRVTargets.cmake"
-         "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
+         "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SPIRVTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -59,32 +59,32 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/SPIRV/CMakeFiles/Export/lib/cmake/SPIRVTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/glslang/SPIRV" TYPE FILE FILES
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/bitutils.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/spirv.hpp"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/GLSL.std.450.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/GLSL.ext.EXT.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/GLSL.ext.KHR.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/GlslangToSpv.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/hex_float.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/Logger.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/SpvBuilder.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/spvIR.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/doc.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/SpvTools.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/disassemble.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/GLSL.ext.AMD.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/GLSL.ext.NV.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/SPVRemapper.h"
-    "/home/tyler/CLionProjects/test_clion/ncnn/glslang/SPIRV/doc.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/bitutils.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/spirv.hpp"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/GLSL.std.450.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/GLSL.ext.EXT.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/GLSL.ext.KHR.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/GlslangToSpv.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/hex_float.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/Logger.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/SpvBuilder.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/spvIR.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/doc.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/SpvTools.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/disassemble.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/GLSL.ext.AMD.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/GLSL.ext.NV.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/NonSemanticDebugPrintf.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/SPVRemapper.h"
+    "/home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/SPIRV/doc.h"
     )
 endif()
 

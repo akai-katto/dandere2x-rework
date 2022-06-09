@@ -1,4 +1,4 @@
-# Install script for directory: /home/tyler/CLionProjects/test_clion/ncnn/glslang/glslang/OSDependent/Unix
+# Install script for directory: /home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/glslang/glslang/OSDependent/Unix
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/libOSDependent.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/libOSDependent.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OSDependentTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OSDependentTargets.cmake"
-         "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/Export/lib/cmake/OSDependentTargets.cmake")
+         "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/Export/lib/cmake/OSDependentTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OSDependentTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -59,9 +59,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/Export/lib/cmake/OSDependentTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/Export/lib/cmake/OSDependentTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/Export/lib/cmake/OSDependentTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake" TYPE FILE FILES "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/glslang/OSDependent/Unix/CMakeFiles/Export/lib/cmake/OSDependentTargets-release.cmake")
   endif()
 endif()
 

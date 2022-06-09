@@ -1,4 +1,4 @@
-# Install script for directory: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/src
+# Install script for directory: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/_CMakeLTOTest-C/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

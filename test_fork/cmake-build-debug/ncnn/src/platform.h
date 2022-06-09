@@ -35,7 +35,7 @@
 #define NCNN_RVV 0
 #define NCNN_INT8 0
 
-#define NCNN_VERSION_STRING "1.0.20220425"
+#define NCNN_VERSION_STRING "1.0.20220522"
 
 #include "ncnn_export.h"
 

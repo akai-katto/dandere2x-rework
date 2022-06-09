@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,12 +23,12 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_9bfa5 && [1/2] Building C object CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_d7f97 && [1/2] Building C object CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: x86_64-pc-linux-gnu
@@ -36,8 +36,8 @@ Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa5.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9bfa5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc6vYjSL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7f97.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d7f97.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccNYs0Cq.s
 GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -55,13 +55,13 @@ GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: ec1bc319e19ef4dd2d241e66d95d4739
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa5.dir/'
- as -v --64 -o CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o /tmp/cc6vYjSL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7f97.dir/'
+ as -v --64 -o CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o /tmp/ccNYs0Cq.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_9bfa5
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_d7f97
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper
@@ -72,9 +72,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9bfa5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9bfa5.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8dqJUo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9bfa5 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9bfa5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9bfa5.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7f97' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7f97.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIHGkX6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7f97 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7f97' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7f97.'
 
 
 
@@ -95,9 +95,9 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_9bfa5 && [1/2] Building C object CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_d7f97 && [1/2] Building C object CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -105,8 +105,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa5.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9bfa5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc6vYjSL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7f97.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d7f97.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccNYs0Cq.s]
   ignore line: [GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -124,13 +124,13 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: ec1bc319e19ef4dd2d241e66d95d4739]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa5.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o /tmp/cc6vYjSL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7f97.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o /tmp/ccNYs0Cq.s]
   ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_9bfa5]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_d7f97]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper]
@@ -141,13 +141,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9bfa5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9bfa5.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8dqJUo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9bfa5 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7f97' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7f97.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIHGkX6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7f97 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc8dqJUo.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIHGkX6.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -163,7 +163,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9bfa5] ==> ignore
+    arg [cmTC_d7f97] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o]
@@ -172,7 +172,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..]
-    arg [CMakeFiles/cmTC_9bfa5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d7f97.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -201,9 +201,9 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_26e7f && [1/2] Building CXX object CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_51b94 && [1/2] Building CXX object CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: x86_64-pc-linux-gnu
@@ -211,8 +211,8 @@ Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_26e7f.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_26e7f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccRGoslY.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51b94.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_51b94.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccQBZ0Li.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -233,13 +233,13 @@ GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: e6d85a433da2a6385241e28f4582b1d3
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_26e7f.dir/'
- as -v --64 -o CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRGoslY.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51b94.dir/'
+ as -v --64 -o CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQBZ0Li.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_26e7f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_51b94
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper
@@ -250,9 +250,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_26e7f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_26e7f.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSQwmR6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_26e7f /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_26e7f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_26e7f.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51b94' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51b94.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJp9mMZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51b94 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51b94' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51b94.'
 
 
 
@@ -279,9 +279,9 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_26e7f && [1/2] Building CXX object CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_51b94 && [1/2] Building CXX object CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -289,8 +289,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_26e7f.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_26e7f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccRGoslY.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51b94.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_51b94.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccQBZ0Li.s]
   ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -311,13 +311,13 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: e6d85a433da2a6385241e28f4582b1d3]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_26e7f.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRGoslY.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51b94.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQBZ0Li.s]
   ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_26e7f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_51b94]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper]
@@ -328,13 +328,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_26e7f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_26e7f.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSQwmR6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_26e7f /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_51b94' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51b94.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJp9mMZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_51b94 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccSQwmR6.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJp9mMZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -350,7 +350,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_26e7f] ==> ignore
+    arg [cmTC_51b94] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o]
@@ -359,7 +359,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..]
-    arg [CMakeFiles/cmTC_26e7f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_51b94.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -384,25 +384,25 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_f59a2 && [1/2] Building C object CMakeFiles/cmTC_f59a2.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_f59a2
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_34b5c && [1/2] Building C object CMakeFiles/cmTC_34b5c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_34b5c
 
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_dedbd && [1/2] Building C object CMakeFiles/cmTC_dedbd.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_dedbd
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_d41b0 && [1/2] Building C object CMakeFiles/cmTC_d41b0.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d41b0
 
 
 
 Detecting C OpenMP compiler ABI info compiled with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_eb90d && [1/2] Building C object CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_1634f && [1/2] Building C object CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: x86_64-pc-linux-gnu
@@ -410,8 +410,8 @@ Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_eb90d.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v -D_REENTRANT /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_eb90d.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccKKn97J.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1634f.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v -D_REENTRANT /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_1634f.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cc2HoGxY.s
 GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -429,13 +429,13 @@ GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: ec1bc319e19ef4dd2d241e66d95d4739
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_eb90d.dir/'
- as -v --64 -o CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o /tmp/ccKKn97J.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1634f.dir/'
+ as -v --64 -o CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o /tmp/cc2HoGxY.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.'
-[2/2] Linking C executable cmTC_eb90d
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.'
+[2/2] Linking C executable cmTC_1634f
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper
@@ -447,17 +447,17 @@ gcc version 11.1.0 (GCC)
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_eb90d' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_eb90d.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrvL64L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_eb90d /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_eb90d' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_eb90d.'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1634f' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_1634f.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5y8yvU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1634f /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1634f' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_1634f.'
 
 
 
 Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_eb90d && [1/2] Building C object CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o]
+  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_1634f && [1/2] Building C object CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -465,8 +465,8 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_eb90d.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v -D_REENTRANT /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_eb90d.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccKKn97J.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1634f.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1 -quiet -v -D_REENTRANT /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_1634f.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cc2HoGxY.s]
   ignore line: [GNU C17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -484,13 +484,13 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: ec1bc319e19ef4dd2d241e66d95d4739]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_eb90d.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o /tmp/ccKKn97J.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1634f.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o /tmp/cc2HoGxY.s]
   ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.']
-  ignore line: [[2/2] Linking C executable cmTC_eb90d]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.']
+  ignore line: [[2/2] Linking C executable cmTC_1634f]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper]
@@ -502,13 +502,13 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_eb90d' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_eb90d.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrvL64L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_eb90d /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_1634f' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_1634f.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5y8yvU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1634f /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrvL64L.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5y8yvU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -524,13 +524,13 @@ Parsed C OpenMP implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_eb90d] ==> ignore
+    arg [cmTC_1634f] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..]
-    arg [CMakeFiles/cmTC_eb90d.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_1634f.dir/OpenMPTryFlag.c.o] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
@@ -556,9 +556,9 @@ Parsed C OpenMP implicit link information from above output:
 
 
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_fe3b3 && [1/2] Building CXX object CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_ef246 && [1/2] Building CXX object CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: x86_64-pc-linux-gnu
@@ -566,8 +566,8 @@ Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fe3b3.dir/'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_fe3b3.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccl7x7ke.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ef246.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_ef246.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccgLm99J.s
 GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 11.1.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -588,13 +588,13 @@ GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: e6d85a433da2a6385241e28f4582b1d3
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fe3b3.dir/'
- as -v --64 -o CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o /tmp/ccl7x7ke.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ef246.dir/'
+ as -v --64 -o CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o /tmp/ccgLm99J.s
 GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.'
-[2/2] Linking CXX executable cmTC_fe3b3
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.'
+[2/2] Linking CXX executable cmTC_ef246
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper
@@ -606,17 +606,17 @@ gcc version 11.1.0 (GCC)
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_fe3b3' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_fe3b3.'
- /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIg5xLL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_fe3b3 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_fe3b3' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_fe3b3.'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ef246' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_ef246.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrkGbq4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ef246 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ef246' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_ef246.'
 
 
 
 Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_fe3b3 && [1/2] Building CXX object CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_ef246 && [1/2] Building CXX object CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: x86_64-pc-linux-gnu]
@@ -624,8 +624,8 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fe3b3.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_fe3b3.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccl7x7ke.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ef246.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_ef246.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccgLm99J.s]
   ignore line: [GNU C++17 (GCC) version 11.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.1.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -646,13 +646,13 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: e6d85a433da2a6385241e28f4582b1d3]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fe3b3.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o /tmp/ccl7x7ke.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ef246.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o /tmp/ccgLm99J.s]
   ignore line: [GNU assembler version 2.36.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_fe3b3]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_ef246]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper]
@@ -664,13 +664,13 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_fe3b3' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_fe3b3.']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIg5xLL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_fe3b3 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ef246' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_ef246.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrkGbq4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ef246 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccIg5xLL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrkGbq4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -686,13 +686,13 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fe3b3] ==> ignore
+    arg [cmTC_ef246] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../..]
-    arg [CMakeFiles/cmTC_fe3b3.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ef246.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]
@@ -714,45 +714,45 @@ Parsed CXX OpenMP implicit link information from above output:
 
 
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_7f8a2 && [1/2] Building CXX object CMakeFiles/cmTC_7f8a2.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_7f8a2
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_acdf7 && [1/2] Building CXX object CMakeFiles/cmTC_acdf7.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_acdf7
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_a851d && [1/2] Building CXX object CMakeFiles/cmTC_a851d.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_a851d
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_f34c6 && [1/2] Building CXX object CMakeFiles/cmTC_f34c6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f34c6
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_dbf4b && [1/2] Building CXX object CMakeFiles/cmTC_dbf4b.dir/src.cxx.o
-/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
-/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_3f173 && [1/2] Building CXX object CMakeFiles/cmTC_3f173.dir/src.cxx.o
+/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
     2 |     int main() { return somefunc();}
       |                         ~~~~~~~~^~
-/home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
     1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
       |                                     ^~~~~~~~
-[2/2] Linking CXX executable cmTC_dbf4b
+[2/2] Linking CXX executable cmTC_3f173
 
 
 Source file was:
 __attribute__((__deprecated__)) int somefunc() { return 0; }
     int main() { return somefunc();}
 Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP16 succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_35547 && [1/2] Building C object CMakeFiles/cmTC_35547.dir/src.c.o
-[2/2] Linking C executable cmTC_35547
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_bf1d5 && [1/2] Building C object CMakeFiles/cmTC_bf1d5.dir/src.c.o
+[2/2] Linking C executable cmTC_bf1d5
 
 
 Source file was:
@@ -763,10 +763,10 @@ Source file was:
     }
   
 Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP32 succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_4c02f && [1/2] Building C object CMakeFiles/cmTC_4c02f.dir/src.c.o
-[2/2] Linking C executable cmTC_4c02f
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_3378e && [1/2] Building C object CMakeFiles/cmTC_3378e.dir/src.c.o
+[2/2] Linking C executable cmTC_3378e
 
 
 Source file was:
@@ -777,10 +777,10 @@ Source file was:
     }
   
 Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP64 succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_7746f && [1/2] Building C object CMakeFiles/cmTC_7746f.dir/src.c.o
-[2/2] Linking C executable cmTC_7746f
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_3d507 && [1/2] Building C object CMakeFiles/cmTC_3d507.dir/src.c.o
+[2/2] Linking C executable cmTC_3d507
 
 
 Source file was:
@@ -791,10 +791,10 @@ Source file was:
     }
   
 Performing C SOURCE FILE Test HAVE_PTHREAD_PRIO_INHERIT succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_a2acb && [1/2] Building C object CMakeFiles/cmTC_a2acb.dir/src.c.o
-[2/2] Linking C executable cmTC_a2acb
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_38002 && [1/2] Building C object CMakeFiles/cmTC_38002.dir/src.c.o
+[2/2] Linking C executable cmTC_38002
 
 
 Source file was:
@@ -806,10 +806,10 @@ Source file was:
         }
       
 Performing C SOURCE FILE Test PTHREAD_CREATE_UNDETACHED succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_d591c && [1/2] Building C object CMakeFiles/cmTC_d591c.dir/src.c.o
-[2/2] Linking C executable cmTC_d591c
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_42d95 && [1/2] Building C object CMakeFiles/cmTC_42d95.dir/src.c.o
+[2/2] Linking C executable cmTC_42d95
 
 
 Source file was:
@@ -821,10 +821,10 @@ Source file was:
         }
       
 Performing C SOURCE FILE Test GIF_COMPILES succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_df581 && [1/2] Building C object CMakeFiles/cmTC_df581.dir/src.c.o
-[2/2] Linking C executable cmTC_df581
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_3391d && [1/2] Building C object CMakeFiles/cmTC_3391d.dir/src.c.o
+[2/2] Linking C executable cmTC_3391d
 
 
 Source file was:
@@ -836,111 +836,111 @@ Source file was:
       }
       
 Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_13b38 && [1/2] Building C object CMakeFiles/cmTC_13b38.dir/STDC_HEADERS.c.o
-[2/2] Linking C executable cmTC_13b38
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_426ab && [1/2] Building C object CMakeFiles/cmTC_426ab.dir/STDC_HEADERS.c.o
+[2/2] Linking C executable cmTC_426ab
 
 
 
 Determining if files dlfcn.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_72424 && [1/2] Building C object CMakeFiles/cmTC_72424.dir/HAVE_DLFCN_H.c.o
-[2/2] Linking C executable cmTC_72424
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_d8baf && [1/2] Building C object CMakeFiles/cmTC_d8baf.dir/HAVE_DLFCN_H.c.o
+[2/2] Linking C executable cmTC_d8baf
 
 
 
 Determining if files GL/glut.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_fd627 && [1/2] Building C object CMakeFiles/cmTC_fd627.dir/HAVE_GL_GLUT_H.c.o
-[2/2] Linking C executable cmTC_fd627
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_c23fa && [1/2] Building C object CMakeFiles/cmTC_c23fa.dir/HAVE_GL_GLUT_H.c.o
+[2/2] Linking C executable cmTC_c23fa
 
 
 
 Determining if files inttypes.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_23382 && [1/2] Building C object CMakeFiles/cmTC_23382.dir/HAVE_INTTYPES_H.c.o
-[2/2] Linking C executable cmTC_23382
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_ec05f && [1/2] Building C object CMakeFiles/cmTC_ec05f.dir/HAVE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_ec05f
 
 
 
 Determining if files memory.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_875af && [1/2] Building C object CMakeFiles/cmTC_875af.dir/HAVE_MEMORY_H.c.o
-[2/2] Linking C executable cmTC_875af
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_8580e && [1/2] Building C object CMakeFiles/cmTC_8580e.dir/HAVE_MEMORY_H.c.o
+[2/2] Linking C executable cmTC_8580e
 
 
 
 Determining if files stdint.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_cebf1 && [1/2] Building C object CMakeFiles/cmTC_cebf1.dir/HAVE_STDINT_H.c.o
-[2/2] Linking C executable cmTC_cebf1
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_f84f2 && [1/2] Building C object CMakeFiles/cmTC_f84f2.dir/HAVE_STDINT_H.c.o
+[2/2] Linking C executable cmTC_f84f2
 
 
 
 Determining if files stdlib.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_5ff49 && [1/2] Building C object CMakeFiles/cmTC_5ff49.dir/HAVE_STDLIB_H.c.o
-[2/2] Linking C executable cmTC_5ff49
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_7ca0f && [1/2] Building C object CMakeFiles/cmTC_7ca0f.dir/HAVE_STDLIB_H.c.o
+[2/2] Linking C executable cmTC_7ca0f
 
 
 
 Determining if files strings.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_5aa1e && [1/2] Building C object CMakeFiles/cmTC_5aa1e.dir/HAVE_STRINGS_H.c.o
-[2/2] Linking C executable cmTC_5aa1e
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_b5413 && [1/2] Building C object CMakeFiles/cmTC_b5413.dir/HAVE_STRINGS_H.c.o
+[2/2] Linking C executable cmTC_b5413
 
 
 
 Determining if files string.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_10bb9 && [1/2] Building C object CMakeFiles/cmTC_10bb9.dir/HAVE_STRING_H.c.o
-[2/2] Linking C executable cmTC_10bb9
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_bd73e && [1/2] Building C object CMakeFiles/cmTC_bd73e.dir/HAVE_STRING_H.c.o
+[2/2] Linking C executable cmTC_bd73e
 
 
 
 Determining if files sys/stat.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_a0039 && [1/2] Building C object CMakeFiles/cmTC_a0039.dir/HAVE_SYS_STAT_H.c.o
-[2/2] Linking C executable cmTC_a0039
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_71178 && [1/2] Building C object CMakeFiles/cmTC_71178.dir/HAVE_SYS_STAT_H.c.o
+[2/2] Linking C executable cmTC_71178
 
 
 
 Determining if files sys/types.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_a640c && [1/2] Building C object CMakeFiles/cmTC_a640c.dir/HAVE_SYS_TYPES_H.c.o
-[2/2] Linking C executable cmTC_a640c
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_82deb && [1/2] Building C object CMakeFiles/cmTC_82deb.dir/HAVE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_82deb
 
 
 
 Determining if files unistd.h exist passed with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_81511 && [1/2] Building C object CMakeFiles/cmTC_81511.dir/HAVE_UNISTD_H.c.o
-[2/2] Linking C executable cmTC_81511
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_a45f4 && [1/2] Building C object CMakeFiles/cmTC_a45f4.dir/HAVE_UNISTD_H.c.o
+[2/2] Linking C executable cmTC_a45f4
 
 
 
 Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_3b879 && [1/2] Building C object CMakeFiles/cmTC_3b879.dir/src.c.o
-[2/2] Linking C executable cmTC_3b879
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_144e6 && [1/2] Building C object CMakeFiles/cmTC_144e6.dir/src.c.o
+[2/2] Linking C executable cmTC_144e6
 
 
 Source file was:
 
-      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
       int main(void) {
         #if !defined(WEBP_USE_SSE41)
         this is not valid code
@@ -949,15 +949,559 @@ Source file was:
       }
     
 Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
-Change Dir: /home/tyler/CLionProjects/test_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_b6661 && [1/2] Building C object CMakeFiles/cmTC_b6661.dir/src.c.o
-[2/2] Linking C executable cmTC_b6661
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_5f9bf && [1/2] Building C object CMakeFiles/cmTC_5f9bf.dir/src.c.o
+[2/2] Linking C executable cmTC_5f9bf
 
 
 Source file was:
 
-      #include "/home/tyler/CLionProjects/test_clion/libwebp/cmake/../src/dsp/dsp.h"
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_b0772 && [1/2] Building C object CMakeFiles/cmTC_b0772.dir/src.c.o
+[2/2] Linking C executable cmTC_b0772
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_1e9af && [1/2] Building C object CMakeFiles/cmTC_1e9af.dir/src.c.o
+[2/2] Linking C executable cmTC_1e9af
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_427d1 && [1/2] Building C object CMakeFiles/cmTC_427d1.dir/src.c.o
+[2/2] Linking C executable cmTC_427d1
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_d1c3e && [1/2] Building C object CMakeFiles/cmTC_d1c3e.dir/src.c.o
+[2/2] Linking C executable cmTC_d1c3e
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_ede82 && [1/2] Building C object CMakeFiles/cmTC_ede82.dir/src.c.o
+[2/2] Linking C executable cmTC_ede82
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_1b924 && [1/2] Building C object CMakeFiles/cmTC_1b924.dir/src.c.o
+[2/2] Linking C executable cmTC_1b924
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_74883 && [1/2] Building C object CMakeFiles/cmTC_74883.dir/src.c.o
+[2/2] Linking C executable cmTC_74883
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_d0c8b && [1/2] Building C object CMakeFiles/cmTC_d0c8b.dir/src.c.o
+[2/2] Linking C executable cmTC_d0c8b
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_c179d && [1/2] Building C object CMakeFiles/cmTC_c179d.dir/src.c.o
+[2/2] Linking C executable cmTC_c179d
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_dcb25 && [1/2] Building C object CMakeFiles/cmTC_dcb25.dir/src.c.o
+[2/2] Linking C executable cmTC_dcb25
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_deb18 && [1/2] Building C object CMakeFiles/cmTC_deb18.dir/src.c.o
+[2/2] Linking C executable cmTC_deb18
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_9a567 && [1/2] Building C object CMakeFiles/cmTC_9a567.dir/src.c.o
+[2/2] Linking C executable cmTC_9a567
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_43edf && [1/2] Building C object CMakeFiles/cmTC_43edf.dir/src.c.o
+[2/2] Linking C executable cmTC_43edf
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_60439 && [1/2] Building C object CMakeFiles/cmTC_60439.dir/src.c.o
+[2/2] Linking C executable cmTC_60439
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_e194f && [1/2] Building C object CMakeFiles/cmTC_e194f.dir/src.c.o
+[2/2] Linking C executable cmTC_e194f
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_6bfe6 && [1/2] Building C object CMakeFiles/cmTC_6bfe6.dir/src.c.o
+[2/2] Linking C executable cmTC_6bfe6
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_af547 && [1/2] Building C object CMakeFiles/cmTC_af547.dir/src.c.o
+[2/2] Linking C executable cmTC_af547
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_28353 && [1/2] Building C object CMakeFiles/cmTC_28353.dir/src.c.o
+[2/2] Linking C executable cmTC_28353
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_0918d && [1/2] Building C object CMakeFiles/cmTC_0918d.dir/src.c.o
+[2/2] Linking C executable cmTC_0918d
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_9e094 && [1/2] Building C object CMakeFiles/cmTC_9e094.dir/src.c.o
+[2/2] Linking C executable cmTC_9e094
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_8c4ce && [1/2] Building C object CMakeFiles/cmTC_8c4ce.dir/src.c.o
+[2/2] Linking C executable cmTC_8c4ce
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_6c120 && [1/2] Building C object CMakeFiles/cmTC_6c120.dir/src.c.o
+[2/2] Linking C executable cmTC_6c120
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_523e3 && [1/2] Building C object CMakeFiles/cmTC_523e3.dir/src.c.o
+[2/2] Linking C executable cmTC_523e3
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_85dda && [1/2] Building C object CMakeFiles/cmTC_85dda.dir/src.c.o
+[2/2] Linking C executable cmTC_85dda
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_c47a3 && [1/2] Building C object CMakeFiles/cmTC_c47a3.dir/src.c.o
+[2/2] Linking C executable cmTC_c47a3
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_15d15 && [1/2] Building C object CMakeFiles/cmTC_15d15.dir/src.c.o
+[2/2] Linking C executable cmTC_15d15
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_2a6d1 && [1/2] Building C object CMakeFiles/cmTC_2a6d1.dir/src.c.o
+[2/2] Linking C executable cmTC_2a6d1
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_2e406 && [1/2] Building C object CMakeFiles/cmTC_2e406.dir/src.c.o
+[2/2] Linking C executable cmTC_2e406
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_fcaa7 && [1/2] Building C object CMakeFiles/cmTC_fcaa7.dir/src.c.o
+[2/2] Linking C executable cmTC_fcaa7
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_c3761 && [1/2] Building C object CMakeFiles/cmTC_c3761.dir/src.c.o
+[2/2] Linking C executable cmTC_c3761
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_43a4c && [1/2] Building C object CMakeFiles/cmTC_43a4c.dir/src.c.o
+[2/2] Linking C executable cmTC_43a4c
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: /home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/clion/bin/ninja/linux/ninja cmTC_0ec9f && [1/2] Building C object CMakeFiles/cmTC_0ec9f.dir/src.c.o
+[2/2] Linking C executable cmTC_0ec9f
+
+
+Source file was:
+
+      #include "/home/tyler/Documents/github/dandere2x-rework/test_fork/libwebp/cmake/../src/dsp/dsp.h"
       int main(void) {
         #if !defined(WEBP_USE_SSE2)
         this is not valid code

@@ -1,4 +1,4 @@
-# Install script for directory: /home/tyler/CLionProjects/test_clion/ncnn
+# Install script for directory: /home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/glslang/cmake_install.cmake")
-  include("/home/tyler/CLionProjects/test_clion/cmake-build-debug/ncnn/src/cmake_install.cmake")
+  include("/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/glslang/cmake_install.cmake")
+  include("/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug/ncnn/src/cmake_install.cmake")
 
 endif()
 

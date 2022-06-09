@@ -268,9 +268,11 @@ void get_image_from_socket(unsigned int port, unsigned char **data, int &w, int 
 #include "waifu2x.h"
 
 #include "filesystem_utils.h"
+#include <thread>
+#include <asio.hpp>
 
-int main(int argc, char **argv)
-{
+void upscale(){
+
     path_t inputpath;
     path_t outputpath;
     int noise = 0;
@@ -286,33 +288,37 @@ int main(int argc, char **argv)
     path_t format = PATHSTR("png");
 
 
-    Waifu2x* waifu2x = new Waifu2x(0, tta_mode, 8);
+    Waifu2x* waifu2x = new Waifu2x(0, tta_mode, 4);
     waifu2x->load(sanitize_filepath("/home/tyler/CLionProjects/test_clion/cmake-build-debug/models-cunet/noise0_scale2.0x_model.param"),
                   sanitize_filepath("/home/tyler/CLionProjects/test_clion/cmake-build-debug/models-cunet/noise0_scale2.0x_model.bin"));
 
     waifu2x->noise = noise;
     waifu2x->scale = (scale >= 2) ? 2 : scale;
-    waifu2x->tilesize = 800;
+    waifu2x->tilesize = 400;
     waifu2x->prepadding = 18;
 
     int w,h, c;
     int n = 3;
 
     string some_string = "/home/tyler/Downloads/yn_moving/output/output28.png";
-    unsigned char *some_array;// = stbi_load(some_string.c_str(), &w, &h, &c, n);
+    unsigned char *some_array = stbi_load(some_string.c_str(), &w, &h, &c, n);
 
-    get_image_from_socket(7003, &some_array, w,h, n);
     ncnn::Mat inimage = ncnn::Mat(1920, 1080, (void *) some_array, (size_t) n, n);
     ncnn::Mat outimage = ncnn::Mat(1920 * 2, 1080 * 2, (size_t) n, (int) n);
-    auto start = std::chrono::high_resolution_clock::now();
+    auto start = high_resolution_clock::now();
     waifu2x->process(inimage, outimage);
-
-    cout << "waiting on receive" << endl;
-
-    stbi_write_bmp_to_func(Writer::dummy_write, 0, outimage.w, outimage.h, n, outimage.data);
-    send_image(7005, Writer::byte_array, Writer::offset);
-
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    cout << duration.count() << endl;
+}
 
 
+int main(int argc, char **argv)
+{
+    std::thread first (upscale);
+    //std::thread second (upscale);
+
+    first.join();
+    //second.join();
     return 0;
 }

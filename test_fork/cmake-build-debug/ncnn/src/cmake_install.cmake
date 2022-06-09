@@ -1,4 +1,4 @@
-# Install script for directory: /home/tyler/CLionProjects/test_clion/ncnn/src
+# Install script for directory: /home/tyler/Documents/github/dandere2x-rework/test_fork/ncnn/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

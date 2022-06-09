@@ -272,7 +272,7 @@ rule C_STATIC_LIBRARY_LINKER__webpdemux_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/tyler/CLionProjects/test_clion -B/home/tyler/CLionProjects/test_clion/cmake-build-debug
+  command = /opt/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/tyler/Documents/github/dandere2x-rework/test_fork -B/home/tyler/Documents/github/dandere2x-rework/test_fork/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
